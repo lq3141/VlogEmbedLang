@@ -1,0 +1,4 @@
+antlr4 ET.g4
+javac *.java
+grun ET etFile -tokens ./rtl.try.v
+grun ET etFile -gui ./rtl.try.v &
